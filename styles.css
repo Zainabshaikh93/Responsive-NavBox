@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(pink, blue, yellow, pink);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container, .container2, .container3 {
+    height: 380px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.container {
+    background: #fff;
+}
+
+.container2 {
+    background: rgb(219, 85, 168);
+    color: #fff;
+}
+
+.container3 {
+    background: #fff;
+}
+
+.deep {
+    text-align: center;
+}
+
+.container .deep img,
+.container3 .deep img {
+    width: 80px;
+}
+
+.container2 .deep img {
+    width: 90px;
+}
+
+.container .deep button,
+.container3 .deep button {
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-weight: 200px;
+}
+
+.container2 .deep button {
+    background: #f1ebeb;
+    color: #000;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-weight: 200px;
+}
